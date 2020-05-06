@@ -1,0 +1,45 @@
+ 
+Complete Project:
+    ☐  Responsiveness @critical 
+        ☐ header objekte untereinander, container auf 100%? und verschiedene css files https://www.mediaevent.de/css/media-queries.html
+    ☐  With Variables
+        ☐ Strings in HTML .innerHTML
+        ☐ Styles, Fonts, Colors in CSS, but also in Illustrator Graphics
+    ☐ Animation
+    ☐ single page nav mit collapsing toolbar
+
+    
+
+Design/Style:
+    ☐ Header (Haus-Bild) Photoshop Effekt 1792x800 Farbpapier-Filter, oder Mosaik Filter transparent als Hintergrund 
+    ☐ header elemente schrift einzeln animiert einblenden
+    ☐ collapsing Header
+
+Graphics:
+    ☐ Logo
+    ✔ 24 h @done (2.5.2020, 17:55:59)
+    ☐ Icons (PZH)
+        ☐  Hygiene/Bad
+        ☐ Medizinische Betreuung
+        ☐ Haushaltshilfe: Einkaufen, Reinigen
+        ☐ Betreuungsleistungen
+        ☐ Verhinderungspflege
+
+
+
+Header: 
+    ☐ Head @today 
+    Schriftfarbe, Groesse, Art, Rahmen fuer Infos, 24h Icons
+    ☐ Navbar @today 
+    ☐ Header Bild und Slogan Parent child umwandeln und responsive machen
+    responsive: slogan text, background
+
+
+Body:
+    ☐ Grosses Bild quer mit Infos und Omas
+    ☐ h2 uberschriften von content alle gleich stylen
+
+Formular: 
+    ☐ S. Budget App fuer JS Funktionen
+    
+

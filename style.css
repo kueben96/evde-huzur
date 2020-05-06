@@ -1,0 +1,212 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+* {
+  box-sizing: border-box;
+  --navbar-color: #64663A;
+}
+
+body{
+    background-color: #E6E1DF;
+    font-family: 'Amatic SC', cursive;
+    margin: 20px 0 20px 0;
+    /*width: 100%;*/
+}
+
+#header{
+  grid-template-columns: 1fr;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto;
+  grid-template-areas: "head"
+                        "nav";
+}
+
+
+.container {
+  /*margin: 20px 100px 0 100px;*/
+  margin:  1vh 5vw 1vh 5vw;
+}
+
+.head{
+  grid-area: head;
+  display: flex;
+}
+
+#logo{
+  flex-basis: 100px;
+}
+
+#title{
+  flex-basis: 500px;
+}
+#header_contact{
+  flex-basis: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+  flex-wrap: wrap;
+
+  /*text-align: right;*/
+
+}
+#header_zeiten{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-basis: 20%;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+#icon_vierzwei, #icon_con{
+margin: 0 20px 0 20px;
+}
+
+.navbar {
+  background-color: var(--navbar-color);
+  grid-area: nav;
+}
+
+nav li {
+    list-style-type: none;
+    /*viewport width*/
+    /*margin: 0 2vw;*/
+    /*viewport height*/
+    padding: 10px 70px 10px 0;
+    font-size: 3vh;
+}
+
+nav ul{
+    display: flex;
+    margin: 20px 100px 0 100px;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #E6E1DF;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: aqua;
+    border-radius: 25px;
+}
+
+
+
+button{
+    display: none;
+  }
+
+ .head-banner { 
+    position: relative; 
+    /*background-size: 100vw;*/
+    background-size: cover;
+    background-image: url(pics/ege_ev.png);
+ }
+
+
+
+.slogan-header{
+  width: 20vw;
+  padding: 1vw;
+  margin: 10vh 10vw 30% 20vw;
+  border: 10px;
+  border-radius: 20px;
+  font-family: silverstein, sans-serif;
+  font-style: normal;
+  font-size: 3vh;
+  /*font-weight: 400;*/
+  text-align: center;
+  color: #E6E1DF;
+  
+  z-index: 2;
+  background-color: #494015;
+}
+
+.content{
+  margin:  1vh 15vw 1vh 15vw;
+  text-align: center;
+}
+
+.content h2{
+  letter-spacing: 1vw;
+}
+
+
+/* FORMS */ 
+form{
+  width: 100%;
+}
+
+.top-form, .middle-form, .bottom-form{
+  width: 100%;
+  min-height: 65px;
+  margin: 10px 0;
+
+}
+
+form input[type="text"],
+form textarea{
+  padding: 10px 5px;
+  box-sizing: border-box ;
+  width: 100%;
+  border: 2px solid #64663A;
+  border-radius: 7px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus{
+  box-shadow: inset 1px 1px rgba(0,0,0, 0.0125),
+              0 0 8px rgba(76,161, 175, 0.4);
+  border-color: #E6E1DF;
+}
+
+form .label {
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  text-align: center;
+  overflow: hidden;
+}
+
+.top-form .inner-form{
+
+  width: 29.9% ; /* of parent element*/
+  float: left;
+  margin-right: 5%;
+}
+
+.top-form .inner-form:last-child{
+  margin-right: 0;
+}
+
+.middle-form {
+  clear: both;
+}
+
+.bottom-form textarea{
+  height: 120px;
+}
+
+form .btn{
+  background: #64663A;
+  width: 150px ;
+  padding: 10px 0;
+  border-radius: 7px;
+  margin: 20px auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+  font-family: 'Amatic SC', cursive;
+}
+
+::-moz-placeholder{
+  font-family: Gill Sans Extrabold, sans-serif}
