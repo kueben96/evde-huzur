@@ -45,4 +45,23 @@
   width: 100%;
 }
 
+.diff_services{
+  display: flex;
+  margin-top: 35px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.diff_service_item{
+	width: 100%;
+}
+.diff_service_item img{
+	width: 70%;
+	margin-bottom: 10px;
+}
+
+.diff_service_item h3{
+	color:#306E7D;
+	margin-bottom: 10px;
+}
 }

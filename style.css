@@ -1,10 +1,13 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@404&display=swap');
 * {
   box-sizing: border-box;
   --navbar-color: #64663A;
+  --font-white: #E6E1DF;
+  --font-blue: #306E7D;
+
 }
 
 body{
@@ -87,7 +90,7 @@ nav ul{
 
 nav a {
     text-decoration: none;
-    color: #E6E1DF;
+    color:  var(--font-white);
     font-weight: bold;
 }
 
@@ -131,9 +134,14 @@ button{
 .content{
   margin:  1vh 15vw 1vh 15vw;
   text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .content h2{
+  letter-spacing: 1vw;
+}
+
+.content h1{
   letter-spacing: 1vw;
 }
 
@@ -202,6 +210,7 @@ form .btn{
   margin: 20px auto;
   text-align: center;
   cursor: pointer;
+  color: var(--font-white);
 }
 
 ::-webkit-input-placeholder {
@@ -210,3 +219,65 @@ form .btn{
 
 ::-moz-placeholder{
   font-family: Gill Sans Extrabold, sans-serif}
+
+    /* Banner Image */
+.banner_image{
+	background: url(pics/ege_ev.png) no-repeat top center;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.diff_services{
+  display: flex;
+  margin-top: 35px;
+	justify-content: space-between;
+}
+
+.diff_service_item{
+	width: 30%;
+}
+
+.diff_service_item img{
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.diff_service_item h3{
+	color:#306E7D;
+	margin-bottom: 15px;
+}
+
+.footer{
+	width: 100%;
+	text-align: center;
+	background: var(--navbar-color);
+	padding: 20px 0;
+}
+
+.footer a{
+	color: var(--font-white);
+}
+
+/* arrow */
+.arrow{
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	width: 40px;
+	height: 40px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+	background: var(--font-blue);
+	border-radius: 50%;
+}
+
+.arrow img{
+	width: 20px;
+	height: 20px;
+	z-index: 1;
+}
